@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(114, 36, 36);
+    padding: 20px;
+}
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    background: #ccc;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.logo {
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu {
+    max-width: 1000px;
+    min-height: 50px;
+    background: #000;
+    margin: 0 auto;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.menu a:hover{ 
+background: rgb(40, 63, 90);
+}
+.banner {
+max-width: 1000px;
+min-height: 250px;
+background: #444;
+margin: 0 auto;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 1000px;
+    min-height: 700px;
+    background: #fff;
+    filter: opacity(70);
+    margin: 0 auto;
+}
+
+.menu_ver {
+    width: 300px;
+    min-height: 700px;
+    background: #ccc;
+    float: left;
+}
+
+.menu_ver ul {
+    list-style: none;
+   
+}
+
+.menu_ver a {
+    display: block;
+    color: #fff;
+    background: #000;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.menu_ver :hover {
+    background: rgb(40, 63, 90);
+}
+
+.contenido {
+    width: 700px;
+    min-height: 700px;
+    background: #fff;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.contenido h2{
+   text-align: center;
+   margin-bottom: 40px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+}
+.contenido p{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+.contenidoT h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 15px;    
+}
+.contenidoT table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.contenidoT td, th{
+    border: 2px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.contenidoT th{
+    background-color:rgb(114, 36, 36);
+    color: #fff;
+    border: 2px solid #000 ;
+}
+
+.formulario{
+    left: 70px;
+    color: rgb(0, 0, 0);
+    max-width:100%;
+    width:500px;
+    margin:auto;
+    margin-top:30px;
+    padding:40px;
+
+    box-shadow:0 0 20px 1px rgba(0, 0, 0, 0.712);
+    position:relative;
+}
+.formulario__input,.formulario__label,.formulario__submit{
+    color: rgb(2, 2, 2);
+    display:block;
+    width:100%;
+    font-size:1.3em;
+}
+.formulario__input:focus{
+    color: rgb(0, 0, 0);
+    outline:1px solid rgba(0, 0, 0, 0.7);
+}
+.formulario__input:focus + .formulario__label{
+    margin-top:-130px;
+}
+.formulario__input{
+    color: rgb(0, 0, 0);
+    padding: 11px;
+    background:transparent;
+    border: 1px solid rgba(7, 7, 7, 0.678);
+    margin-bottom: 40px;
+}
+.formulario__label{
+    color: rgb(0, 0, 0);
+    padding-left:15px;
+    position: absolute;
+    margin-top:-85px;
+   z-index:-1;
+    transition:all 0.2s;
+}
+.formulario__submit{
+    background:rgba(0, 0, 0, 0.7);
+    color:rgb(0, 0, 0);
+    padding:10px 20px;
+    cursor:pointer;
+    border:none;
+}
+footer {
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center; 
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  18px;
+}
